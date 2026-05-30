@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.carousel {
+  overflow: hidden;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel-banner {
+    overflow: hidden;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+
